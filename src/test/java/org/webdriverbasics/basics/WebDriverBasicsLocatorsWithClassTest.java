@@ -1,14 +1,14 @@
 package org.webdriverbasics.basics;
 
-import static org.testng.Assert.assertEquals;
-
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class WebDriverBasicsLocatorsWithClassTest extends AbstractChromeWebDriverTest{
+import java.util.List;
+
+import static org.testng.Assert.assertEquals;
+
+public class WebDriverBasicsLocatorsWithClassTest extends AbstractChromeWebDriverTest {
 	
 	@Test
 	public void testTitle() {	

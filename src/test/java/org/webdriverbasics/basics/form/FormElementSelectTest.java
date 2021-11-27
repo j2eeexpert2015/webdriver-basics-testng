@@ -1,11 +1,10 @@
 package org.webdriverbasics.basics.form;
 
+import org.webdriverbasics.basics.AbstractChromeWebDriverTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-
-import org.webdriverbasics.basics.AbstractChromeWebDriverTest;
 
 public class FormElementSelectTest extends AbstractChromeWebDriverTest {
 

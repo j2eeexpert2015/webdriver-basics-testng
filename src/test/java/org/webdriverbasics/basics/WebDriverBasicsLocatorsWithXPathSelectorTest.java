@@ -1,12 +1,12 @@
 package org.webdriverbasics.basics;
 
-import static org.testng.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class WebDriverBasicsLocatorsWithXPathSelectorTest extends AbstractChromeWebDriverTest{
+import static org.testng.Assert.assertEquals;
+
+public class WebDriverBasicsLocatorsWithXPathSelectorTest extends AbstractChromeWebDriverTest {
 	
 	@Test
 	public void testXpathSelectorForaTableTd() {

@@ -1,12 +1,11 @@
 package org.webdriverbasics.basics.form;
 
-import java.util.List;
-
+import org.webdriverbasics.basics.AbstractChromeWebDriverTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import org.webdriverbasics.basics.AbstractChromeWebDriverTest;
+import java.util.List;
 
 public class FormElementRadioButtonTest extends AbstractChromeWebDriverTest {
 

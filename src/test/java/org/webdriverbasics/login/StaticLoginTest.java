@@ -1,12 +1,11 @@
 package org.webdriverbasics.login;
 
+import org.webdriverbasics.basics.AbstractChromeWebDriverTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import org.webdriverbasics.basics.AbstractChromeWebDriverTest;
-
-public class StaticLoginTest extends AbstractChromeWebDriverTest{
+public class StaticLoginTest extends AbstractChromeWebDriverTest {
   
   @Test
   public void login() {

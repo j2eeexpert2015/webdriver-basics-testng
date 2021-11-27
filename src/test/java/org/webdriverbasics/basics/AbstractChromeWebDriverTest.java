@@ -5,8 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public abstract class AbstractChromeWebDriverTest {
 
 	protected WebDriver driver;
