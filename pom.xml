@@ -44,6 +44,30 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Reading CSV -->
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>3.4</version>
+            <scope>test</scope>
+        </dependency>
+
+
+        <!-- Reading Excel -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.6</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>phantomjsdriver</artifactId>
+            <version>1.4.4</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
