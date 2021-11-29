@@ -26,12 +26,12 @@ public class AjaxHandling extends AbstractChromeWebDriverTest {
         driver.navigate().to(ajaxTestSite);
         /* Wait for the AJAX controls to appear. */
         driver.switchTo().frame(driver.findElement(By.id("iframeResult")));
-        By container = By.xpath(".//*[@id='demo']");
+        By locator = By.xpath(".//*[@id='demo']");
         WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.presenceOfElementLocated(container));
+        wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 
         /* Read the text that appears in the AJAX text control. */
-        WebElement ajaxControl = driver.findElement(container);
+        WebElement ajaxControl = driver.findElement(locator);
         String ajaxTextFirstPara = ajaxControl.getText().trim();
 
         /* Click on the AJAX button control. */
